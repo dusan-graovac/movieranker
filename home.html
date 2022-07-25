@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ranker</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+<h1>Movie Ranker</h1>
+<div class="main__container">
+    <div class="movie__container">
+        <button id ="button0" type="button" class="moviebutton"><img id="movieimage0" src="https://media-cache.cinematerial.com/p/500x/ctpnz4mq/interstellar-movie-poster.jpg?v=1456424450" class="movieimage"></button>
+        <div id="movietitle0" type ="text" class="movietitle">Interstellar</div>
+        <div id="moviedirector0" type ="text" class="moviedirector">Christopher Nolan</div>
+        <div id="movieyear0" type ="text" class="movieyear">2014</div>
+    </div>
+
+    <div class="movie__container">
+        <button id="button1" type="button" class="moviebutton"><img id="movieimage1" src="https://xl.movieposterdb.com/13_11/2013/993846/xl_993846_6b55e2ea.jpg" class="movieimage"></button>
+        <div id="movietitle1" type ="text" class="movietitle">Wolf of Wall Street</div>
+        <div id="moviedirector1" type ="text" class="moviedirector">Martin Scorsese</div>
+        <div id="movieyear1" type ="text" class="movieyear">2013</div>
+    </div>
+</div>
+
+
+<h2>Select which movie you like better.</h2>
+<button class="refresh__button" id="refresh__button">
+    <img class="refresh__image" src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Refresh_icon.png">
+    <div type="text">Refresh Leaderboard</div>
+</button>
+
+<table id="leaderboard__table">
+    <th>
+        <th>Title</th>
+        <th>ELO Rating</th>
+    </th>
+    <tbody id="leaderboard">
+        <td class="leaderboard__num">1</td>
+    </tbody>
+</table>
+
+<script src="home.js"></script>
+</body>
+</html>
